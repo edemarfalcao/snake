@@ -52,7 +52,7 @@ function drawFood() {
     ctx.fillStyle = FOOD_COLOR;
     ctx.strokeStyle = FOOD_BORDER_COLOR;
     ctx.fillRect(foodX, foodY, 10, 10);
-    ctx.strokeRect(foodX, foodY, 10, 10);
+    ctx.strokeRect(foodX, foodY, 10, 10); 
 }
 
 function advanceSnake(){
