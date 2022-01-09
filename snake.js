@@ -46,7 +46,7 @@ function didGameEnd() {
     const hitBottomWall = snake[0].y > gameCanvas.height - 10;
 
     return hitLeftWall || hitRightWall || hitToptWall || hitBottomWall
-  }
+  };
 
 function drawFood() {
     ctx.fillStyle = FOOD_COLOR;
